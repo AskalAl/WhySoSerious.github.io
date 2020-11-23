@@ -6,7 +6,7 @@ if (location.protocol.toLowerCase().indexOf('https') === -1) {
 window.onload = function () {
 
   const
-  soundThreshold = 80, //lower this value if the lamp doesn't respond to your claps, increase it if the light switches on and off too easily
+  soundThreshold = 60, //lower this value if the lamp doesn't respond to your claps, increase it if the light switches on and off too easily
   audioContext = new AudioContext(),
   lamp = document.getElementsByClassName('lamp')[0],
   analyserNode = audioContext.createAnalyser(),
