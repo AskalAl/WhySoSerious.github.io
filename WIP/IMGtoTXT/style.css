@@ -1,0 +1,39 @@
+body {
+	background: #eee;
+	padding: 20px 30px;
+}
+#ascii-art {
+	margin-top:0;
+	font-family: courier, monospace;
+	font-size: 10px;
+/* 	line-height: .7;
+	letter-spacing: 0em; */
+}
+#upload-container {
+	margin-top: 20px;
+}
+/* hide the miserable default btn */
+#file-upload-btn {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+/* and convert its label to a proper btn */
+#file-upload-btn + label {
+	font-family: courier, monospace;
+	cursor: pointer;
+	padding: 5px 10px;
+	border-radius: 3px;
+	color: black;
+	background: -webkit-linear-gradient(top, #fff, #ddd);
+	display: inline-block;
+	border: 1px solid #999;
+	text-shadow: 1px 1px #fff;
+}
+
+#file-upload-btn + label:active {
+	background: -webkit-linear-gradient(top, #ddd, #fff);
+}
