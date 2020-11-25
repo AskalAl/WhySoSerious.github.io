@@ -144,7 +144,7 @@
             g.fillText('Transactions: ' + transactionsNumber.toString(), this.cubeSize * 0.1, this.cubeSize * 0.55);
             g.fillText('---------------', this.cubeSize * 0.1, this.cubeSize * 0.7);
             g.fillText('EVERYTIME   YOU', this.cubeSize * 0.1, this.cubeSize * 0.85);
-            g.fillText('DONT      SMESH,', this.cubeSize * 0.1, this.cubeSize * 1.0);
+            g.fillText('DONT      SMESH', this.cubeSize * 0.1, this.cubeSize * 1.0);
             g.fillText('A UNICORN  DIES', this.cubeSize * 0.1, this.cubeSize * 1.15);
 
             var geometry = new THREE.PlaneGeometry(this.cubeSize * 0.9, this.cubeSize * 0.9);
