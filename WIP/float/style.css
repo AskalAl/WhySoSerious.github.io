@@ -1,0 +1,28 @@
+:root {
+  --scroll: 0;
+  --bottom: 0;
+}
+h1 {
+  font-size: 3em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+body {
+  text-align: center;
+  min-height: 300vh;
+  margin: 100vh 0 0 0;
+  font-family: sans-serif;
+}
+div {
+  height: 100vh;
+  text-align: center;
+}
+p {
+  max-width: 200px;
+  margin: 1em auto;
+  text-align: justify;
+}
+h1, p {
+    opacity: calc((var(--bottom) - var(--scroll)) / var(--window-height));
+}
