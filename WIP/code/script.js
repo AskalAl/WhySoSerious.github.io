@@ -28,7 +28,7 @@ setInterval (
     
   count += 0.6;
     
-   $(".number").html("<h2>Alon Askal earned &#163;" +count.toFixed(2)+ " since you've loaded this!</h2>");
+   $(".number").html("<h2>Alon Askal earned $" +count.toFixed(2)+ " since you've loaded this!</h2>");
   } ,1000);
      
       key = []; //Clear the array to be used again.
