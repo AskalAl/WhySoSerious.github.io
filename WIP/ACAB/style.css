@@ -1,0 +1,29 @@
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  cursor: default;
+}
+
+h1 span.bye {
+  opacity: 0;
+  animation: fade 1s linear;
+  transition: opacity 1s linear;
+}
+
+h1 span.eye {
+  animation: squeeze 1s linear;
+  transition: transform 1s linear;
+}
+
+h1:hover span {
+  opacity: 1;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

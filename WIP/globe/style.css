@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: radial-gradient(circle, #000 25vmin, #024 100vmax);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+#output {
+  background-image: radial-gradient(circle farthest-corner at 75% 75%, #000010 0%, #001020 50%, #004030 100%);
+  border-radius: 100%;
+  color: #20dc80;
+  font-family: "Inconsolata", monospace;
+  font-size: 3vmin;
+  line-height: .55em;
+  text-rendering: optimizeSpeed;
+  will-change: contents;
+  white-space: pre;
+}
+
+canvas {
+  display: none;
+}

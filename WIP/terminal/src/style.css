@@ -1,0 +1,37 @@
+body {
+    background-color: #191919;
+    color: #55C055;
+    font-size: 16px;
+    text-shadow: 0 0 12px #c0c0c0;
+    cursor: default;
+}
+
+pre,div {
+    padding: 0;
+    margin: 0;
+}
+
+#screen1 {
+    margin: 0 auto;
+    background-color: #1b2a04;
+    box-shadow: inset 0 0 160px #263b02;
+}
+
+.tile {
+
+    float: left;
+    text-align: center;
+}
+.tile:hover{
+    /*background-color: green;*/
+}
+
+.row {
+}
+
+.hovered{
+    cursor: pointer;
+    background-color: #55C055;
+    /*box-shadow: 0px 0px 12px #80a080;*/
+    color: black;
+}

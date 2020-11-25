@@ -1,0 +1,40 @@
+* {
+    color: limegreen;
+    font-family: monospace, serif;
+    font-size: 1rem;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+.ascii-visualizer {
+    font-size: 1rem;
+}
+
+.ascii-visualizer>pre {
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    font-size: 1rem;
+}
+
+body {
+    overflow: hidden;
+}
+
+.solicitor::after {
+    content: "▓";
+    opacity: 1;
+    animation: blink 1.2s infinite;
+}
+
+@keyframes blink {
+    to {
+        opacity: 0;
+    }
+}
