@@ -12,7 +12,7 @@ function init() {
     alpha: true,
     antialias: true
   });
-  //scene.background = new THREE.Color( 0xffffff );
+  scene.background = new THREE.Color( 0xffffff );
   renderer.setSize(WIDTH, HEIGHT);
 
 
